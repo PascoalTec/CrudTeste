@@ -18,10 +18,11 @@ D - DELETE -> DeleteMapping
 ```
 
 # application.properties
-
+```
 spring.jpa.hibernate.ddl-auto=update -> se não tiver banco, ele cria
 
 @Column -> para personalizar o comportamento da coluna
+```
 
 # Jpa -> faz a persistência do banco de dados
 ```
